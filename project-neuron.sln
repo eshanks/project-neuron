@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F5DB5435-A52A-4C51-B3DA-B1FEB1CBE658}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Geocoding", "Geocoding", "{DF74FE7F-9E99-41A6-A9C4-496BF53E7BA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geocoding.Service", "src\Geocoding\Geocoding.Service\Geocoding.Service.csproj", "{38DF4BA7-787F-4800-BF18-6B8852171310}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38DF4BA7-787F-4800-BF18-6B8852171310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38DF4BA7-787F-4800-BF18-6B8852171310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38DF4BA7-787F-4800-BF18-6B8852171310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38DF4BA7-787F-4800-BF18-6B8852171310}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF74FE7F-9E99-41A6-A9C4-496BF53E7BA2} = {F5DB5435-A52A-4C51-B3DA-B1FEB1CBE658}
+		{38DF4BA7-787F-4800-BF18-6B8852171310} = {DF74FE7F-9E99-41A6-A9C4-496BF53E7BA2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A374BD78-8DE0-4146-A5B5-7E140E68A7A1}
+	EndGlobalSection
+EndGlobal
